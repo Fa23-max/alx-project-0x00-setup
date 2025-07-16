@@ -6,10 +6,7 @@ const Landing: React.FC = () => {
             <h1 className="text-xl font-extralight">Landing Page</h1>
             <Card />
             <Button
-          sizes="text-sm"
-          shapes="rounded-full"
-          color="bg-blue-500"
-          text="Click Me"
+          styles="string"
         />
         </div>
         
@@ -17,3 +14,5 @@ const Landing: React.FC = () => {
 
 }
 export default Landing;
+
+// "rounded-sm", "rounded-lg"
